@@ -6,9 +6,9 @@ new Env('SSPanel 签到');
 COMMENT
 
 source "$(dirname "$0")/utils_env.sh"
+source "$(dirname "$0")/utils_package.sh"
 source "$(dirname "$0")/notify.sh"
 source_config
-check_jq_installed_status
 
 # 版本、初始化变量
 VERSION="2.2.2"
